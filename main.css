@@ -1,0 +1,118 @@
+
+body {
+    /* font-family: sans; */
+    font-family: 'Lato', sans-serif;
+}
+
+/*  start: header bar style  */
+header nav {
+    font-size: 22px;
+    font-family: sans;
+    background-color: lightgray;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+
+header nav a {
+    position: absolute;
+}
+
+.logo {
+    left: 20px;
+    color: black;
+    letter-spacing: -0.04em;
+}
+
+header nav a {
+    text-decoration: none;
+}
+
+.post {
+    right: 150px;
+}
+
+.account {
+    right: 30px;
+}
+
+.post:link, .account:link {
+                color: purple;
+}
+
+.post:visited, .account:visited {
+                   color: grey;
+}
+/*  end: header bar style  */
+
+
+/* start: search & UI */
+form > * {
+    border: 1px solid lightgray;
+    border-radius: 3%;
+    font-weight: 600;
+    display: inline-block;
+}
+
+input[name=search_val] {
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 500px;
+    height: 20px;
+}
+
+input[name=searchbutton] {
+    background: url(magnifying-glass.png);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    vertical-align: -12px;
+    cursor: pointer;
+}
+
+.k_of_n_results {
+    font-size: 0;
+}
+
+.k_of_n_results {
+    margin-top: 40px;
+    margin-left: 200px;
+    height: 40px;
+    background-color: white;
+    font-size: 0px;
+}
+
+.k_of_n_results > * {
+    padding: 7px;
+    padding-left: 19px;
+    padding-right: 19px;
+    display: inline-block;
+    border: 1px solid lightgray;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+/* end: search and UI */
+
+
+/* start: results */
+.results {
+    margin-top: 50px;
+    margin-left: 200px;
+    color: gray;
+    font-size: 18px;
+}
+
+.results a:link {
+    margin-left: 15px;
+    margin-right: 12px;
+    color: #0033ff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.results a:active {
+    color: orange;
+}
